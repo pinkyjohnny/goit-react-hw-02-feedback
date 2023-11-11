@@ -1,4 +1,4 @@
-import { FeetbackOptions } from 'components/FeedbackOptions/FeedbackOptions';
+import { FeedbackOptions } from 'components/FeedbackOptions/FeedbackOptions';
 import { Statistics } from 'components/Statistics/Statistics.jsx';
 import { Notification } from 'components/Notification/Notification.jsx';
 import { Section } from 'components/Section/Section.jsx';
@@ -34,7 +34,7 @@ export class App extends React.Component {
     return (
       <div>
         <Section title="Please leave your feedback here!">
-          <FeetbackOptions
+          <FeedbackOptions
             options={Object.keys(this.state)}
             onLeaveFeedback={this.onLeaveFeedback}
           />
